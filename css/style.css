@@ -1,0 +1,10 @@
+body {
+	background-color: rgba(119,136,153,0.95);
+}
+
+h1, h2, p {
+	color: linen;
+	font-family: helvetica;
+}
+
+h1 {font-size: 70px}
