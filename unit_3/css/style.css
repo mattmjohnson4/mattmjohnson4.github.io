@@ -1,0 +1,144 @@
+body {
+	background-color: #EEE5F6;
+	 margin-top: 0px;
+ 	margin-right: 0px;
+ 	margin-bottom: 0px;
+ 	margin-left: 0px;
+}
+nav{
+	background-color: rgba(212,231,240,0.4);
+	color: #313131;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+
+h1 {
+	font-size: 70px;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 400;
+	margin-left: 40px;
+}
+
+h2 {
+	font-weight: 100;
+	font-family: 'Helvetica', sans-serif;
+	margin-left: 40px;
+}
+
+p {
+	font-family: 'Helvetica', sans-serif;
+}
+
+a {
+	text-decoration: underline;
+}
+h1, h2, a, #slogan{
+	color: linen;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 100;
+
+}
+
+#slogan {
+	font-size: 70px;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 400;
+	margin-left: 40px;
+}
+
+#logo {
+	position: fixed; left: 10px; top: 2px;
+	font-size: 40px;
+}
+
+#sign_in {
+	position: fixed; left: 1200px; top: 2px;
+	font-size: 30px;
+}
+#category1 {
+	position: fixed; left: 10px; top: 50px;
+	font-size: 20px;
+}
+#category2 {
+	position: fixed; left: 240px; top: 50px;
+	font-size: 20px;
+}
+#category3 {
+	position: fixed; left: 440px; top: 50px;
+	font-size: 20px;
+}
+#category4 {
+	position: fixed; left: 710px; top: 50px;
+	font-size: 20px;
+}
+#category5 {
+	position: fixed; left: 980px; top: 50px;
+	font-size: 20px;
+}
+#category6 {
+	position: fixed; left: 1210px; top: 50px;
+	font-size: 20px;
+}
+
+#hero_image{
+	height: 400px;
+	position: relative; top: 30px;
+	margin-left: 0px;
+	background: url("http://marketingland.com/wp-content/ml-loads/2016/04/PrintingPress-ss-1920.jpg");
+	background-size: cover;
+	width: 100%;
+}
+
+#blurb {
+	font-size: 15px;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 100;
+	color: linen;
+	margin-left: 40px;
+}
+
+ul, li {
+	font-size: 15px;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 100;
+	color: linen;
+	margin-left: 10px;
+}
+
+#module1 {
+	height: 600px;
+	width: 400px;
+	border-style: solid;
+	border-width: 2px;
+	float: left;
+	position: relative; top: 60px; left: 40px;
+}
+
+#module2 {
+	height: 600px;
+	width: 400px;
+	border-style: solid;
+	border-width: 2px;
+	float: left;
+	position: relative; top: 60px; left: 110px;
+}
+
+#module3 {
+	height: 600px;
+	width: 400px;
+	border-style: solid;
+	border-width: 2px;
+	float: left;
+	position: relative; top: 60px; left: 180px;
+}
+#content {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 27px;
+}
+
+
+
+
+
+
