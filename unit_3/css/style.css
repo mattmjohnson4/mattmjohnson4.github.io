@@ -1,12 +1,14 @@
 body {
 	background-color: #EEE5F6;
-	 margin-top: 0px;
+	font-size: 16px; //1em = 16px//
+	position: relative;
+	margin-top: 0px;
  	margin-right: 0px;
  	margin-bottom: 0px;
  	margin-left: 0px;
 }
 nav{
-	background-color: rgba(212,231,240,0.4);
+	// background-color: rgba(212,231,240,0.4);
 	color: #313131;
 	font-family: 'Cormorant Garamond', serif;
 }
@@ -27,6 +29,9 @@ h2 {
 
 p {
 	font-family: 'Helvetica', sans-serif;
+	font-size: 1em;
+	width:30em;
+	line-height: 1.5em;
 }
 
 a {
@@ -35,8 +40,23 @@ a {
 h1, h2, a, #slogan{
 	color: linen;
 	font-family: 'Helvetica', sans-serif;
-	font-weight: 100;
+	// font-weight: 100;
 
+}
+
+h3{
+	color: #000;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 100;
+}
+
+hr {
+	// border: none;
+	border-color: black;
+	background-color: #3c3c3c;
+	color: black;
+	width: 2em;
+	margin: 1em auto;
 }
 
 #slogan {
@@ -81,12 +101,20 @@ h1, h2, a, #slogan{
 }
 
 #hero_image{
-	height: 400px;
+	height: 600px;
 	position: relative; top: 30px;
 	margin-left: 0px;
 	background: url("http://marketingland.com/wp-content/ml-loads/2016/04/PrintingPress-ss-1920.jpg");
 	background-size: cover;
 	width: 100%;
+	color: linen;
+	font-family: 'Helvetica', sans-serif;
+
+}
+
+ul { 
+	font-size: 1em;
+
 }
 
 #blurb {
@@ -97,12 +125,12 @@ h1, h2, a, #slogan{
 	margin-left: 40px;
 }
 
-ul, li {
-	font-size: 15px;
-	font-family: 'Helvetica', sans-serif;
-	font-weight: 100;
-	color: linen;
-	margin-left: 10px;
+// #hero_list, li{
+// 	font-size: 15px;
+// 	font-family: 'Helvetica', sans-serif;
+// 	font-weight: 100;
+// 	color: linen;
+// 	margin-left: 10px;
 }
 
 #module1 {
