@@ -1,0 +1,184 @@
+@import 'https://fonts.googleapis.com/css?family=Satisfy';
+@import 'https://fonts.googleapis.com/css?family=Amiri';
+@import 'https://fonts.googleapis.com/css?family=UnifrakturMaguntia';
+
+
+body {
+	background-color: #EEE5F6;
+	font-size: 16px; //1em = 16px//
+	position: relative;
+	padding: 0;
+	margin: 0em;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 49%;
+}
+
+#ul_nav2 a {
+	font-family: 'Amiri', serif;
+	font-size: 1.1em;
+}
+
+#ul_nav1 a {
+	font-family: 'Satisfy', cursive;
+	font-size: 2em;
+}
+
+h1 {
+	font-family: 'Helvetica', sans-serif;
+	color: linen;
+	font-size: 6em;
+	font-weight: 100;
+	line-height: 0em;
+	margin: 1em, 1em, 1em, 1em;
+	padding-left: 20px;
+}
+
+h2 {
+	padding-left: 20px;
+}
+
+#ul_nav2 li {
+	font-size: 1em;
+	width: 30em;
+	line-height: 1.5em;
+	padding-left: 1em;
+}
+
+section p {
+	padding-left: 1em;
+}
+
+#hero_image ul {
+	padding-left: 4em;
+}
+
+section p, section li, #blurb, section a {
+	font-family: 'Amiri', serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	width: 30em;
+	line-height: 1.5em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 100;
+	line-height: 1.5em;
+	text-align: center;
+	margin-left: 10em;
+	margin-right: 10em;
+	margin-bottom: 0em;
+}
+
+h4 {
+	font-size: 1.4em;
+	font-weight: 100;
+	line-height: 1.5em;
+	text-align: center;
+	margin-left: 14.5em;
+	margin-right: 14.5em;
+	margin-bottom: 1.4em;
+	margin-top: 1.4em;
+}
+
+
+article p {
+	font-family: 'Amiri', serif;
+	font-size: 1.2em;
+	font-weight: 100;
+	line-height: 1.5em;
+	text-align: left;
+	margin-left: 19em;
+	margin-right: 19em;
+	margin-bottom: 0em;
+}
+
+#nyt, #washington_post {
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 2em;
+}
+
+hr {
+	margin-left: 23em;
+	margin-right: 23em;
+}
+
+
+a {
+	color: black;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+
+nav
+	{
+   position:fixed;
+   height: 40px;
+   width: 100%;
+	}
+
+
+section a {
+	color: linen;
+}
+
+
+#ul_nav1, #ul_nav2 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+	background-color: rgba(240,240,240,0.95);
+}
+
+#ul_nav1 li {
+	display: inline;
+	padding-left: 20px;
+}
+
+#sign_in {
+	display: inline;
+	float: right;
+	padding-right: 20px;
+}
+
+#ul_nav2 li{
+	display: inline;
+	padding-right: 8.6em;
+}
+
+#nav_spacer {
+	width: 100%;
+	height: 88px;
+}
+
+section {
+	height: 600px;
+	margin-left: 0px;
+	background: url("https://hd.unsplash.com/photo-1454540723233-f0b9ff08b132");
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	color: linen;
+	]
+
+section a {
+	padding-left: 20px;
+}
+
+h3 {
+	font-family: 'Old English Text MT', serif;
+}
+
+
+
+
+
+
+
+
+
