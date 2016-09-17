@@ -1,169 +1,197 @@
+@import 'https://fonts.googleapis.com/css?family=Satisfy';
+@import 'https://fonts.googleapis.com/css?family=David+Libre';
+@import 'https://fonts.googleapis.com/css?family=Amiri';
+@import 'https://fonts.googleapis.com/css?family=UnifrakturMaguntia';
+
+
 body {
 	background-color: #EEE5F6;
-	font-size: 16px; //1em = 16px//
+	font-size: 16px; //1em = 20px//
 	position: relative;
-	margin-top: 0px;
- 	margin-right: 0px;
- 	margin-bottom: 0px;
- 	margin-left: 0px;
-}
-nav{
-	// background-color: rgba(212,231,240,0.4);
-	color: #313131;
-	font-family: 'Cormorant Garamond', serif;
+	padding: 0;
+	margin: 0em;
 }
 
+img {
+	display: block;
+	margin: auto;
+	width: 49%;
+	// border: solid 4px #E787FF;
+}
+
+#ul_nav2 a {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 1em;
+}
+
+#ul_nav1 a{
+	font-family: 'Satisfy', cursive;
+	font-size: 2em;
+}
 
 h1 {
-	font-size: 70px;
 	font-family: 'Helvetica', sans-serif;
-	font-weight: 400;
-	margin-left: 40px;
+	color: linen;
+	font-size: 6em;
+	font-weight: 100;
+	line-height: 0em;
+	margin: 1em, 1em, 1em, 1em;
+	padding-left: 20px;
 }
 
 h2 {
-	font-weight: 100;
-	font-family: 'Helvetica', sans-serif;
-	margin-left: 40px;
+	padding-left: 20px;
 }
 
-p {
-	font-family: 'Helvetica', sans-serif;
+#ul_nav2 li {
+	font-family:'Cormorant Garamond', serif;
 	font-size: 1em;
-	width:30em;
+	width: 30em;
+	line-height: 1.5em;
+	padding-left: 1em;
+}
+
+section p {
+	// font-family: 'David Libre', serif;
+	padding-left: 1em;
+}
+
+#hero_image ul {
+	// font-family: 'David Libre', serif;
+	padding-left: 4em;
+}
+
+
+// p, .li_content, #blurb, .a_call_to_action {
+// 	font-family: 'David Libre', serif;
+// 	font-family: 'Amiri', serif;
+// 	font-size: 1.5em;
+// 	font-weight: 100;
+// 	width: 30em;
+// 	line-height: 1.5em;
+// }
+
+section p, section li, #blurb, section a {
+	font-family: 'Amiri', serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	width: 30em;
 	line-height: 1.5em;
 }
 
-a {
-	text-decoration: underline;
-}
-h1, h2, a, #slogan{
-	color: linen;
-	font-family: 'Helvetica', sans-serif;
-	// font-weight: 100;
-
-}
-
-h3{
-	color: #000;
-	font-family: 'Helvetica', sans-serif;
+h3 {
+	font-size: 2em;
 	font-weight: 100;
+	line-height: 1.5em;
+	text-align: center;
+	margin-left: 10em;
+	margin-right: 10em;
+	margin-bottom: 0em;
+}
+
+h4 {
+	font-size: 1.4em;
+	font-weight: 100;
+	line-height: 1.5em;
+	text-align: center;
+	margin-left: 14.5em;
+	margin-right: 14.5em;
+	margin-bottom: 1.4em;
+	margin-top: 1.4em;
+}
+
+
+article p {
+	font-size: 1.2em;
+	font-weight: 100;
+	line-height: 1.5em;
+	text-align: left;
+	margin-left: 19em;
+	margin-right: 19em;
+	margin-bottom: 0em;
+}
+
+#nyt, #washington_post {
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 2em;
 }
 
 hr {
-	// border: none;
-	border-color: black;
-	background-color: #3c3c3c;
+	margin-left: 23em;
+	margin-right: 23em;
+}
+
+
+a {
 	color: black;
-	width: 2em;
-	margin: 1em auto;
+	text-decoration: none;
+	line-height: 1.5em;
 }
 
-#slogan {
-	font-size: 70px;
-	font-family: 'Helvetica', sans-serif;
-	font-weight: 400;
-	margin-left: 40px;
+nav
+	{
+   position:fixed;
+   height: 40px;
+   width: 100%;
+	}
+
+
+section a {
+	color: linen;
+	// text-decoration: underline;
+	// border-bottom: 1px solid linen;
 }
 
-#logo {
-	position: fixed; left: 10px; top: 2px;
-	font-size: 40px;
+
+#ul_nav1, #ul_nav2 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+	background-color: rgba(240,240,240,0.95);
+}
+
+#ul_nav1 li {
+	display: inline;
+	padding-left: 20px;
 }
 
 #sign_in {
-	position: fixed; left: 1200px; top: 2px;
-	font-size: 30px;
-}
-#category1 {
-	position: fixed; left: 10px; top: 50px;
-	font-size: 20px;
-}
-#category2 {
-	position: fixed; left: 240px; top: 50px;
-	font-size: 20px;
-}
-#category3 {
-	position: fixed; left: 440px; top: 50px;
-	font-size: 20px;
-}
-#category4 {
-	position: fixed; left: 710px; top: 50px;
-	font-size: 20px;
-}
-#category5 {
-	position: fixed; left: 980px; top: 50px;
-	font-size: 20px;
-}
-#category6 {
-	position: fixed; left: 1210px; top: 50px;
-	font-size: 20px;
+	display: inline;
+	float: right;
+	padding-right: 20px;
 }
 
-#hero_image{
+#ul_nav2 li{
+	display: inline;
+	padding-right: 8.6em;
+}
+
+#nav_spacer {
+	width: 100%;
+	height: 88px;
+}
+
+section {
 	height: 600px;
-	position: relative; top: 30px;
 	margin-left: 0px;
-	background: url("http://marketingland.com/wp-content/ml-loads/2016/04/PrintingPress-ss-1920.jpg");
+	background: url("https://hd.unsplash.com/photo-1454540723233-f0b9ff08b132");
+	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
 	color: linen;
-	font-family: 'Helvetica', sans-serif;
+	]
 
+section a {
+	padding-left: 20px;
 }
 
-ul { 
-	font-size: 1em;
-
+h3 {
+	font-family: 'Old English Text MT', serif;
 }
 
-#blurb {
-	font-size: 15px;
-	font-family: 'Helvetica', sans-serif;
-	font-weight: 100;
-	color: linen;
-	margin-left: 40px;
-}
 
-// #hero_list, li{
-// 	font-size: 15px;
-// 	font-family: 'Helvetica', sans-serif;
-// 	font-weight: 100;
-// 	color: linen;
-// 	margin-left: 10px;
-}
 
-#module1 {
-	height: 600px;
-	width: 400px;
-	border-style: solid;
-	border-width: 2px;
-	float: left;
-	position: relative; top: 60px; left: 40px;
-}
-
-#module2 {
-	height: 600px;
-	width: 400px;
-	border-style: solid;
-	border-width: 2px;
-	float: left;
-	position: relative; top: 60px; left: 110px;
-}
-
-#module3 {
-	height: 600px;
-	width: 400px;
-	border-style: solid;
-	border-width: 2px;
-	float: left;
-	position: relative; top: 60px; left: 180px;
-}
-#content {
-	font-family: 'Cormorant Garamond', serif;
-	text-align: center;
-	font-size: 27px;
-}
 
 
 
