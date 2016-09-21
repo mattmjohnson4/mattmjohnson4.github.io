@@ -1,0 +1,159 @@
+@import 'https://fonts.googleapis.com/css?family=Satisfy';
+@import 'https://fonts.googleapis.com/css?family=Amiri';
+@import 'https://fonts.googleapis.com/css?family=UnifrakturMaguntia';
+
+* {
+	margin: 0em;
+	padding: 0em;
+	font-size: 16px;
+}
+
+body {
+	background-color: #EEE5F6;
+	position: relative;
+}
+
+#nav
+	{
+   position:fixed;
+   width: 100%;
+	}
+
+#ul_nav1, #ul_nav2 {
+	list-style-type: none;
+	padding-bottom: 1em;
+	background-color: rgba(240,240,240,0.95);
+}
+
+#ul_nav1 li {
+	display: inline;
+	padding-left: 1.4em;
+}
+
+#ul_nav2 li{
+	display: inline;
+	padding: 0em 8.6em 0em 1em;
+
+}
+
+#ul_nav1 a {
+	font-family: 'Satisfy', cursive;
+	font-size: 2em;
+}
+
+#ul_nav2 a {
+	font-family: 'Amiri', serif;
+	font-size: 1.1em;
+}
+
+#sign_in {
+	float: right;
+	padding-right: 1.4em;
+}
+
+#section {
+	height: 42em;
+	background: url("https://hd.unsplash.com/photo-1454540723233-f0b9ff08b132");
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	color: linen;
+	}
+
+h1 {
+	font-family: 'Helvetica', sans-serif;
+	color: linen;
+	font-weight: 100;
+	padding: 2em 0em 0em 0.7em;
+	font-size: 6em;
+}
+
+h2 {
+	padding: 0em 0em 1em 2.8em;
+	font-size: 1.5em;
+}
+
+h3 {
+	font-family: 'Old English Text MT', serif;
+	font-weight: 100;
+	line-height: 1.5em;
+	text-align: center;
+	padding: 1em 10em 0em 10em;
+}
+
+#section ul {
+	padding-left: 6em;
+}
+
+#section p {
+	padding-left: 2.8em;
+}
+
+#main a {
+	font-size: 1.5em;
+}
+
+#section p, #section li, #section a {
+	font-family: 'Amiri', serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	width: 30em;
+	line-height: 1.5em;
+	color: linen;
+}
+
+
+h4 {
+	font-size: 1.4em;
+	font-weight: 100;
+	line-height: 1.5em;
+	text-align: center;
+	padding: 1.43em 14.5em;
+}
+
+
+article p {
+	font-family: 'Amiri', serif;
+	font-size: 1.2em;
+	font-weight: 100;
+	line-height: 1.5em;
+	text-align: left;
+	padding: 0em 19em;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 49%;
+	padding-bottom: 1em;
+}
+
+#nyt, #washington_post {
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 2em;
+}
+
+#economist {
+	font-size: 2em;
+}
+
+hr {
+	margin: 0em 23em;
+}
+
+
+a {
+	color: black;	
+	text-decoration: none;
+	line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
