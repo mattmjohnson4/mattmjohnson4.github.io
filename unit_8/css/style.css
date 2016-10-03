@@ -13,6 +13,7 @@
 body {
 	position: relative;
 	font-size: 17px;
+	wdith: 100%;
 }
 
 a {
@@ -124,12 +125,29 @@ h2 a {
 #wrapper_articles {
 	width: 50%;
 	float: left;
-	margin-left: 10%;
+	margin-left: 6%;
+}
+
+#see_comments_column {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	background-color: #FBE5FF;
+	height: 4em;
+	padding: 1em;
+	border: 2px solid #FBE5FF;
+    border-radius: 25px;	
+	position: fixed;
+	top: 80%;
+	bottom: 0px;
+	right: 2%;
+	left: auto;
+	display: none;
 }
 
 
 #wrapper_right_column {
 	font-family: 'Lato', sans-serif;
+	font-size: 1em;
 	width: 35%;
 	float: right;
 	margin-right: 2.5%;
@@ -213,23 +231,23 @@ img {
 	color: linen;
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
-	letter-spacing: 3px;
-	padding: 2rem;
+	letter-spacing: .17em;
+	padding: 2em;
 	display: inline-block;
 
 }
 
 #social_icons {
-	display: inline;
+	display: inline-block;
 	float: right;
-	padding: 1rem;
+	padding: 1em;
 }
 
 #social_icons img {
 	width: auto;
-	max-width: 40px;
+	max-width: 2.5em;
 	height: auto;
-	max-height: 60px;
+	max-height: 3.5em;
 	display: inline;
 
 }
@@ -262,12 +280,39 @@ img {
 	#section {
 		height: 30rem;
 	}
-}
+
+	#wrapper_right_column {
+		display: none;
+	}
+
+	#see_comments_column {
+ 		display: block;
+	}
+
+	#wrapper_articles {
+		width: 60%;
+	}
+
+	#ul_nav2 a {
+		font-size: 16px;
+	}
+
+	.article p {
+		font-size: 17px;
+	}
+
+	#wrapper_right_column {
+		font-size: 16px;
+	}
 
 @media only screen and (max-width: 810px) {
 
 	body {
 		font-size: 11px;
+	}
+
+	#ul_nav1 a {
+		font-size: 24px
 	}
 
 	#section p, #section li {
@@ -277,12 +322,29 @@ img {
 	#section {
 		height: 20rem;
 	}
+
+	#see_comments_column {
+ 		font-size: 13px;
+	}
+
+	#wrapper_articles {
+		width: 86%;
+	}
+
+	.article p {
+		font-size: 15px;
+	}
+
 }
 
 @media only screen and (max-width: 650px) {
 
 	body {
 		font-size: 8px;
+	}
+
+	#section {
+		height: 17rem;
 	}
 
 	#ul_nav2 a:nth-of-type(n+2) {
@@ -297,8 +359,58 @@ img {
 		display: block;
 	}
 
+	#wrapper_articles h3 a, #wrapper_articles h4 a {
+		font-size: 17px;
+	}
+
+
 	#ul_nav2:hover a {
 		display: block;
+		width: 100%;
+	}
+
+	.article p {
+		font-size: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 490px) {
+
+	body {
+		font-size: 6px;
+	}
+
+	h1 {
+		padding-top: 5.5rem;
+	}
+
+	#section {
+		height: 15rem;
+	}
+
+	.article p {
+		font-size: 14px;
+	}
+
+}
+
+@media only screen and (max-width: 350px) {
+
+	body {
+		font-size: 5px;
+	}
+
+	h1 {
+		padding-top: 4.5rem;
+	}
+
+	#section {
+		height: 12rem;
+	}
+
+	.article p {
+		font-size: 14px;
 	}
 
 }
