@@ -337,7 +337,7 @@
 
 /* Float */
 .hvr-float {
-  display: inline-block;
+/*  display: inline-block;*/
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
