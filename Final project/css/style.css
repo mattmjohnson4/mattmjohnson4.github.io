@@ -1,0 +1,447 @@
+@import 'https://fonts.googleapis.com/css?family=Satisfy';
+@import 'https://fonts.googleapis.com/css?family=Amiri';
+@import 'https://fonts.googleapis.com/css?family=UnifrakturMaguntia';
+@import 'https://fonts.googleapis.com/css?family=Lato:300';
+
+
+* {
+	margin: 0em;
+	padding: 0em;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	font-size: 17px;
+	wdith: 100%;
+}
+
+a {
+	color: black;	
+	text-decoration: none;
+	line-height: 1.5em;
+}
+
+#nav
+	{
+   position: relative;
+   width: 100%;
+   background-color: rgba(251,229,255,0.95);
+	}
+
+#nav a:hover, label:hover {
+	color: #A8574E;
+}
+
+#nav a:active {
+	text-decoration: underline;
+}
+
+h2 a:active, h3 a:active, h4 a:active { 
+	color: #A8574E;
+}
+
+#ul_nav1, #ul_nav2 {
+	list-style-type: none;
+	padding-bottom: 1em;
+	background-color: rgba(251,229,255,0.95);
+}
+
+#ul_nav2 {
+	text-align: center;
+}
+
+#ul_nav1 a {
+	display: inline;
+	padding-left: 1.4em;
+	font-family: 'Satisfy', cursive;
+	font-size: 2em;
+	padding: 0em 1em 0em 1em;
+	transition:all ease-out 0.5s;
+}
+
+#ul_nav2 a {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 16.6%;
+	float: left;
+	transition:all ease-out 0.5s;
+}
+
+
+#section {
+	transition:all ease-out 0.5s;
+}
+
+
+#ul_nav1 a:nth-of-type(2) {
+	float: right;
+}
+
+#section {
+	height: 35em;
+	background: url("images/hero_image.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	color: linen;
+	padding-left: 4em;
+	margin-bottom: 1em;
+	}
+
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	color: linen;
+	font-weight: 100;
+	padding-top: 6rem;
+	font-size: 6em;
+}
+
+h2 {
+	padding-bottom: 1.5rem;
+	font-size: 1.5em;
+}
+
+h2 a {
+	color: linen;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+}
+
+#section ul {
+	padding-left: 2em;
+}
+
+#section p, #section li {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	width: 45rem;
+	line-height: 2.25rem;
+	color: linen;
+}
+
+#wrapper_articles {
+	width: 50%;
+	float: left;
+	margin-left: 6%;
+	transition:all ease-out 0.5s;
+}
+
+#see_comments_column {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	background-color: #FBE5FF;
+	height: 4em;
+	padding: 1em;
+	border: 2px solid #FBE5FF;
+    border-radius: 25px;	
+	position: fixed;
+	top: 80%;
+	bottom: 0px;
+	right: 2%;
+	left: auto;
+	display: none;
+	transition:all ease-out 0.5s;
+}
+
+aside p a {
+	padding: 1em 0 1em 0;
+}
+
+
+#wrapper_right_column {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	width: 35%;
+	float: right;
+	margin-right: 2.5%;
+	line-height: 2em;
+	transition:all ease-out 0.5s;
+}
+
+// #wrapper_left_column aside {
+// 	margin-top: 20em;
+// 	background-color: #FBE5FF;
+// 	padding: 1rem;
+// 	border: 2px solid #FBE5FF;
+//     border-radius: 25px;	
+// }
+
+#wrapper_right_column aside {
+	margin-top: 30em;
+	background-color: #FBE5FF;	
+	padding: 1rem;	
+	border: 2px solid #FBE5FF;
+    border-radius: 25px;
+}
+
+div {
+	display: inline-block;
+}
+
+.article {
+	padding-bottom: 2em;
+}
+
+
+.article p {
+	font-family: 'Amiri', serif;
+	color: #222;
+	font-size: 1.2em;
+	line-height: 2em;
+	text-align: left;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+.article:nth-of-type(1) h3, .article:nth-of-type(2) h3  {
+	padding-top: 1rem;
+	text-align: center;
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 2em;
+}
+
+.article:nth-of-type(3) h3 {
+	padding-top: 1rem;
+	text-align: center;
+}
+
+.article:nth-of-type(3) a {
+	font-size: 2em;
+}
+
+.article h4 {
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.article h4 a {
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+}
+
+#footer {
+	height: 7em;
+	background: #111222;
+	clear: both;
+}
+
+#footer p {
+	color: linen;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	letter-spacing: .17em;
+	padding: 2em;
+	display: inline-block;
+
+}
+
+#social_icons {
+	display: inline-block;
+	float: right;
+	padding: 1em;
+}
+
+#social_icons img {
+	width: auto;
+	max-width: 2.5em;
+	height: auto;
+	max-height: 3.5em;
+	display: inline;
+
+}
+
+.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
+
+#toggle {
+	background-color: rgba(251,229,255,0.95);
+	display: none;
+
+}
+
+label {
+	background-color: rgba(251,229,255,0.95);
+	display: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+}
+
+
+@media only screen and (min-width: 1800px) {
+	body {
+		font-size: 22px;
+	}
+	#content_wrapper {
+		width: 1600px;
+	}
+
+	}
+
+@media only screen and (max-width: 1100px) {
+
+	body {
+		font-size: 13px;
+	}
+
+	#section {
+		height: 30rem;
+	}
+
+	#wrapper_right_column {
+		display: none;
+	}
+
+	#see_comments_column {
+ 		display: block;
+	}
+
+	#wrapper_articles {
+		width: 60%;
+	}
+
+	#ul_nav2 a, label {
+		font-size: 16px;
+	}
+
+	.article p {
+		font-size: 17px;
+	}
+
+	#wrapper_right_column {
+		font-size: 16px;
+	}
+
+@media only screen and (max-width: 810px) {
+
+	body {
+		font-size: 11px;
+	}
+
+	#ul_nav1 a {
+		font-size: 24px
+	}
+
+	#section p, #section li {
+		display: none;
+	}
+
+	#section {
+		height: 20rem;
+	}
+
+	#see_comments_column {
+ 		font-size: 13px;
+	}
+
+	#wrapper_articles {
+		width: 86%;
+	}
+
+	.article p {
+		font-size: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 690px) {
+
+	body {
+		font-size: 8px;
+	}
+
+	#section {
+		height: 17rem;
+	}
+
+	#ul_nav2 a {
+		float: none;
+		padding-top: 1em;
+		margin: 0 auto;
+		display: none;
+	}
+
+	#wrapper_articles h3 a, #wrapper_articles h4 a {
+		font-size: 17px;
+	}
+
+	label {
+		text-align: right;
+		padding-right: 1em;
+		display: block;
+	}
+
+
+	#toggle:checked + ul a {
+		display: block;
+		width: 100%;
+	}
+
+
+	.article p {
+		font-size: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 510px) {
+
+	body {
+		font-size: 6px;
+	}
+
+	h1 {
+		padding-top: 5.5rem;
+	}
+
+	#section {
+		height: 15rem;
+	}
+
+	.article p {
+		font-size: 14px;
+	}
+
+}
+
+@media only screen and (max-width: 350px) {
+
+	body {
+		font-size: 5px;
+	}
+
+	h1 {
+		padding-top: 4.5rem;
+	}
+
+	#section {
+		height: 12rem;
+	}
+
+	.article p {
+		font-size: 14px;
+	}
+
+}
+
+
+
+
+
+
