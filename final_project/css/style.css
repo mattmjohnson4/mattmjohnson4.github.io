@@ -43,12 +43,12 @@ h2 a:active, h3 a:active, h4 a:active {
 
 #ul_nav1, #ul_nav2 {
 	list-style-type: none;
-	padding-bottom: 1em;
 	background-color: rgba(251,229,255,0.95);
 }
 
 #ul_nav2 {
 	text-align: center;
+	padding-bottom: 0.5em;
 }
 
 #ul_nav1 a {
@@ -84,6 +84,7 @@ h2 a:active, h3 a:active, h4 a:active {
 	background: url("images/hero_image.jpeg");
 	background-attachment: fixed;
 	background-size: cover;
+	background-position: 0 -160px;
 	width: 100%;
 	color: linen;
 	padding-left: 4em;
@@ -109,6 +110,7 @@ h2 a {
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	font-size: 2em;
+	margin-bottom: 1em;
 }
 
 #section ul {
@@ -225,9 +227,17 @@ img {
 	padding-bottom: 1rem;
 }
 
+.article h3 a {
+	margin-bottom: 0.5em;
+	}
+
 .article h4 a {
 	font-family: 'Lato', sans-serif;
 	font-size: 2em;
+}
+
+.article p {
+	margin-bottom: 1em;
 }
 
 #footer {
@@ -302,6 +312,7 @@ label {
 
 	#section {
 		height: 30rem;
+		margin-bottom: 5em;
 	}
 
 	#wrapper_right_column {
