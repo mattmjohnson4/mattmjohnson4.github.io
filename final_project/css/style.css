@@ -43,7 +43,6 @@ h2 a:active, h3 a:active, h4 a:active {
 
 #ul_nav1, #ul_nav2 {
 	list-style-type: none;
-	padding-bottom: 1em;
 	background-color: rgba(251,229,255,0.95);
 }
 
@@ -67,6 +66,7 @@ h2 a:active, h3 a:active, h4 a:active {
 	width: 16.6%;
 	float: left;
 	transition:all ease-out 0.5s;
+	padding: 1em 0em 1em 0em;
 }
 
 
@@ -74,6 +74,59 @@ h2 a:active, h3 a:active, h4 a:active {
 	transition:all ease-out 0.5s;
 }
 
+input {
+	border: none;
+	width: 30%;
+	height: 45px;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding-left: 1em;
+	// padding-top: 1em;
+	margin-left: 2em;
+	display: inline;
+}
+
+::-webkit-input-placeholder {
+   color: linen;
+   font-size: 2em;
+   font-family: 'Lato', sans-serif;
+
+}
+
+button {
+	border: none;
+	width: 60px;
+	height: 45px;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.2);
+   	display: inline;
+}
+
+button span {
+	color: linen;
+   	font-size: 2em;
+   	font-family: 'Lato', sans-serif;
+   	line-height: 0em;
+   	padding-bottom: 0em;
+}
+
+
+.error {
+	border: 2px solid rgba(232, 12, 73, 0.3);
+}
+
+#message, #loading {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	color: linen;
+	padding-left: 2em;
+	padding-top: 1em;
+}
+
+#loading {
+	display: none;
+
+}
 
 #ul_nav1 a:nth-of-type(2) {
 	float: right;
@@ -81,7 +134,7 @@ h2 a:active, h3 a:active, h4 a:active {
 
 #section {
 	height: 35em;
-	background: url("images/hero_image.jpeg");
+	background: url("images/hero_image3.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
@@ -94,7 +147,7 @@ h2 a:active, h3 a:active, h4 a:active {
 h1 {
 	font-family: 'Lato', sans-serif;
 	color: linen;
-	font-weight: 100;
+	font-weight: 500;
 	padding-top: 6rem;
 	font-size: 6em;
 }
@@ -115,14 +168,14 @@ h2 a {
 	padding-left: 2em;
 }
 
-#section p, #section li {
-	font-family: 'Lato', sans-serif;
-	font-size: 1.5em;
-	font-weight: 100;
-	width: 45rem;
-	line-height: 2.25rem;
-	color: linen;
-}
+// #section p, #section li {
+// 	font-family: 'Lato', sans-serif;
+// 	font-size: 1.5em;
+// 	font-weight: 100;
+// 	width: 45rem;
+// 	line-height: 2.25rem;
+// 	color: linen;
+// }
 
 #wrapper_articles {
 	width: 50%;
@@ -284,6 +337,10 @@ label {
 }
 
 
+
+//media queries
+
+
 @media only screen and (min-width: 1800px) {
 	body {
 		font-size: 22px;
@@ -338,9 +395,9 @@ label {
 		font-size: 24px
 	}
 
-	#section p, #section li {
-		display: none;
-	}
+	// #section p, #section li {
+	// 	display: none;
+	// }
 
 	#section {
 		height: 20rem;
